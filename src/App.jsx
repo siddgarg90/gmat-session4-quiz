@@ -15,7 +15,7 @@ export default function App() {
 
   useEffect(() => {
     fetch(
-      "https://opensheet.elk.sh/1s3YjqTPWm1GrWl3DcAwMn4NVjg8B2Uh8qBRFjPEwJk4/Sheet3"
+      "https://opensheet.elk.sh/1s3YjqTPWm1GrWl3DcAwMn4NVjg8B2Uh8qBRFjPEwJk4/Sheet4"
     )
       .then((res) => res.json())
       .then((data) => {
